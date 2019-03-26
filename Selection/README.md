@@ -11,8 +11,13 @@ A selection sort algorithm will swap the smallest element it finds in each itera
     1. If the number we’re looking at is the smallest in size, we swap it with the first element.
 
 ```python
-unsorted_list = [33,2,52,106,73]
-sorted_list = selection_sort(unsorted_list)
+>>> from selection import selection_sort
+>>>
+>>> unsorted_list = [33,2,52,106,73]
+>>>
+>>> sorted_list = selection_sort(unsorted_list)
+>>> print(sorted_list)
+[2, 33, 52, 73, 106]
 ```
 ## Conclusion
 * Time complexity: O(n²)
